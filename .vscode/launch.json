@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch via yarn | build",
+            "runtimeExecutable": "/Users/sg53311ml/.nvm/versions/node/v14.17.0/bin/yarn",
+            "runtimeArgs": [
+                "--inspect-brk",
+                "build",
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "port": 9229,
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
