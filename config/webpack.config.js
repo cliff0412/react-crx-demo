@@ -172,8 +172,9 @@ module.exports = function (webpackEnv) {
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
     entry:
-      isEnvDevelopment && !shouldUseReactRefresh
-        ? {
+      // isEnvDevelopment && !shouldUseReactRefresh
+        // ? 
+        {
             main: [
               // Include an alternative client for WebpackDevServer. A client's job is to
               // connect to WebpackDevServer by a socket and get notified about changes.
@@ -198,8 +199,8 @@ module.exports = function (webpackEnv) {
             ].filter(Boolean),
             content: './src/content/index.js',
             background: './src/background/index.js'
-          }
-        : paths.appIndexJs,
+          },
+        // : paths.appIndexJs,
     output: {
       // The build folder.
       path: isEnvProduction ? paths.appBuild : undefined,
