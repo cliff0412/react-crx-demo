@@ -3,6 +3,7 @@ import {HashRouter, Route, Switch, Redirect} from 'react-router-dom'
 import Login from './pages/login'
 import Home from './pages/home'
 import './popup.styl'
+// import '@/content'
 
 function Popup() {
     return (
