@@ -104,3 +104,6 @@ import Button from 'antd/es/button'
 import 'antd/es/button/style/index.css'
 ```
 避免引入ant design的原全局样式
+
+### references
+https://github.com/Yuezi32/react-crx
